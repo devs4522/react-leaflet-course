@@ -13,13 +13,12 @@ export const RadiusFilter = ({radiusFilter, setRadiusFilter}) => {
                         setRadiusFilter(null);
                     }
                 }}
-                color={"gray"}
-                weight={1}
-                fillOpacity={0.1}
+                pathOptions={{fill:true, fillColor:"green", fillOpacity: 0.1, weight: 1}}
+               
             />
         );
         return (
-            <LayersControl.Overlay  name="Radius Filter">
+            <LayersControl.Overlay  name="Radius Filter" checked={true}>
                 {layer}
             </LayersControl.Overlay>
         );

@@ -6,3 +6,69 @@
 .fit-bounds-control-container{
     display: grid;
 }
+
+/* .leaflet-control-layers-toggle.leaflet-layerstree-named-toggle {
+    margin: 2px 5px;
+    width: auto;
+    height: auto;
+    background-image: none;
+} */
+
+
+.leaflet-layerstree-header input{
+    margin-left: 0px;
+}
+
+
+.leaflet-layerstree-header-pointer {
+    cursor: pointer;
+}
+
+.leaflet-layerstree-header label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.leaflet-layerstree-children {
+    padding-left: 10px;
+}
+
+.leaflet-layerstree-children-nopad {
+    padding-left: 0px;
+}
+
+
+.leaflet-layerstree-hide {
+    display: none;
+}
+
+.leaflet-layerstree-nevershow {
+    display: none;
+}
+
+.leaflet-layerstree-expand-collapse {
+    cursor: pointer;
+}
+
+.leaflet-layerstree-node .leaflet-layerstree-children {
+    padding-left: 20px;
+}
+
+.leaflet-layerstree-header-name {
+    padding-left: 10px;
+}
+
+.leaflet-top.leaflet-right .leaflet-control.leaflet-control-layers-expanded {
+    margin-right: 60px;
+}
+
+.leaflet-top {
+    top: 8%;
+}
+
+.leaflet-top .leaflet-control-zoom {
+    position: fixed;
+    top: 15%;
+}
